@@ -1,0 +1,18 @@
+package in.singleton;
+
+public class CreateSingleton {
+
+	private static  CreateSingleton CreateSingleton = null;
+	private CreateSingleton() {
+		
+	}
+	public static  CreateSingleton getObject() {
+		if(CreateSingleton == null) {
+			 CreateSingleton = new CreateSingleton();
+		}
+		
+		return  CreateSingleton;
+		
+	}
+
+}
