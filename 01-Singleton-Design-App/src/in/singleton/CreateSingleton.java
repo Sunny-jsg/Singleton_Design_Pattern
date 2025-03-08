@@ -5,6 +5,7 @@ public class CreateSingleton {
 	private static  CreateSingleton CreateSingleton;
 	private CreateSingleton() {
 		
+		
 	}
 	public static  CreateSingleton getObject() {
 		if(CreateSingleton == null) {
